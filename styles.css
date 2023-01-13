@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+*, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: hsl(233deg, 47%, 7%);
+  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  width: 375px;
+  flex-wrap: wrap;
+  align-content: center;
+  height: 100vh;
+  background-color: hsl(244deg, 38%, 16%);
+}
+.container .header img {
+  height: 242px;
+  overflow: hidden;
+  background: hsl(277deg, 64%, 61%) url("./images/image-header-mobile.jpg");
+  margin-bottom: 43px;
+}
+.container .stats {
+  margin-top: 46px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+/*# sourceMappingURL=styles.css.map */
