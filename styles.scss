@@ -11,9 +11,9 @@ body{
 .container{
     display: flex;
     color: #fff;
-    // flex-direction: column;
+    flex-direction: column;
     width: 375px;
-    // flex-wrap: wrap;
+    flex-wrap: wrap;
     align-content: center;
     height: 100vh;
     background-color: hsl(244, 38%, 16%);
