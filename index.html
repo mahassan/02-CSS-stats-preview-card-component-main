@@ -15,14 +15,14 @@
 
 <body>
   <div class="container">
-    <picture>
-      <img 
-          srcset="./images/image-header-mobile.jpg 500w,
-                  ./images/image-header-desktop.jpg 1500w
-          "
-                    src="./images/image-header-mobile.jpg" 
-          alt="mobile header" />
-    </picture>
+      <picture>
+        <source src="./images/image-header-desktop.jpg"
+                media="(min-width:700px)" />
+        <source src="./images/image-header-mobile.jpg"
+                media="(max-width:375px)" />
+        <img src="./images/image-header-desktop.jpg" alt="" srcset="">
+
+      </picture>
     <div class="info">
       <h1>Get <span class="magenta">insights</span> that help your business grow.</h1>
       <p>
