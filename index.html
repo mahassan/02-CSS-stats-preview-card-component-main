@@ -16,9 +16,12 @@
 <body>
   <div class="container">
     <picture>
-      <source media="(min-width:375px)" srcset="./images/image-header-mobile.jpg">
-      <source media="(min-width:465px)" srcset="./images/image-header-desktop.jpg">
-      <img src="./images/image-header-mobile.jpg" alt="mobile header" />
+      <img 
+          srcset="./images/image-header-mobile.jpg 500w,
+                  ./images/image-header-desktop.jpg 1500w
+          "
+                    src="./images/image-header-mobile.jpg" 
+          alt="mobile header" />
     </picture>
     <div class="info">
       <h1>Get <span class="magenta">insights</span> that help your business grow.</h1>
