@@ -24,10 +24,28 @@ picture{
   width:100%;
   border-radius: 10px;
 }
+img{
+  width:100%;
+}
+ul{
+  display: grid;
+  text-transform: uppercase;
+  row-gap: 1rem;
+}
+li span{
+  display: block;
+}
+h1, span{
+  color:rgb(143,141,167);
+}
+li span{
+  font-size:0.67rem;
+}
 .info{
   background: hsl(244, 38%, 16%);
   padding:1.75rem;
   text-align: center;
+  border-radius: 1rem;
 }
 p{
   padding:53px 0;
