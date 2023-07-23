@@ -50,7 +50,7 @@ p{
   line-height: 1.6;
   color:hsla(0, 0%, 100%, 0.75) ;
 }
-@media only screen and (min-width:379px) {
+@media only screen and (min-width:23.68rem) {
     .container{
       display: grid;
       grid-template-columns: repeat(2, 2fr);
