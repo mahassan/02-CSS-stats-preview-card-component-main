@@ -10,7 +10,7 @@ body {
   background: hsl(233, 47%, 7%);
   font-family: "Inter", sans-serif;
   font-family: "Lexend Deca", sans-serif;
-  font-size: 15px;
+  font-size: 0.9rem;
 }
 
 .container {
@@ -46,7 +46,7 @@ li span{
   border-top-right-radius: 0;
 }
 p{
-  padding:53px 0;
+  padding:3.3rem 0;
   line-height: 1.6;
   color:hsla(0, 0%, 100%, 0.75) ;
 }
@@ -64,7 +64,7 @@ p{
       grid-column: 1/2;
       grid-row: 1/2;
       text-align: left;
-      width:300px;
+      width:18.75rem;
       justify-self: end;
     }
     h1, li{
