@@ -52,7 +52,6 @@ p{
 }
 @media only screen and (min-width:379px) {
     .container{
-      width: 1440px;
       display: grid;
       grid-template-columns: repeat(2, 2fr);
       margin:0 auto;
@@ -66,6 +65,7 @@ p{
       grid-row: 1/2;
       text-align: left;
       width:300px;
+      justify-self: end;
     }
     h1, li{
       color:#fff
