@@ -65,14 +65,16 @@ p{
       height: 100%;
       object-fit: cover;
     }
+    picture,img{
+      border-top-right-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+    }
     .info{
       grid-column: 1/2;
       grid-row: 1/2;
       text-align: left;
       width:18.75rem;
       justify-self: end;
-      border-top-left-radius: 1rem;
-      border-bottom-left-radius: 1rem;
     }
     h1, li{
       color:#fff
