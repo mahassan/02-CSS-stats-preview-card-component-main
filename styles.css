@@ -19,19 +19,19 @@ body {
 .container {
   color: #fff;
 }
-picture{
+picture.main{
   background:hsl(277, 64%, 61%);;
 }
-img{
+.main img{
   width:100%;
   mix-blend-mode: hard-light;
 }
-ul{
+ul.main{
   display: grid;
   text-transform: uppercase;
   row-gap: 1rem;
 }
-li span{
+.main li span{
   display: block;
 }
 h1, span{
