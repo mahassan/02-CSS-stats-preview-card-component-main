@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+@import url("./reset.css");
 *, html {
   margin: 0;
   padding: 0;
@@ -11,14 +11,13 @@ body {
   font-family: "Inter", sans-serif;
   font-family: "Lexend Deca", sans-serif;
   font-size: 0.9rem;
+  display:grid;
+  height: 100vh;
+  place-content: center;
 }
 
 .container {
   color: #fff;
-  width: 100%;
-  height: 100%;
-  margin:0 auto;
-  align-items: center;
 }
 picture{
   background:hsl(277, 64%, 61%);;
@@ -59,12 +58,14 @@ p{
       display: grid;
       grid-template-columns: repeat(2, 2fr);
       margin:0 auto;
+      max-width: 56.25rem;
     }
     img{
       width:100%;
+      height: 100%;
+      object-fit: cover;
     }
     .info{
-      width: 100%;
       grid-column: 1/2;
       grid-row: 1/2;
       text-align: left;
@@ -78,6 +79,9 @@ p{
     }
     picture{
       grid-column: 2/3;
+    }
+    img{
+      height: 100%;
     }
     span.magenta{
       color: hsl(277, 64%, 61%);
