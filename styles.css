@@ -45,7 +45,7 @@ li span{
   padding:1.75rem;
   text-align: center;
   border-radius: 1rem;
-  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
   border-top-right-radius: 0;
 }
 p{
