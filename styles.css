@@ -17,6 +17,7 @@ body {
 }
 
 .container {
+  margin: 1rem;
   color: #fff;
 }
 picture.main{
@@ -53,7 +54,7 @@ p{
   line-height: 1.6;
   color:hsla(0, 0%, 100%, 0.75) ;
 }
-@media only screen and (min-width:23.68rem) {
+@media only screen and (min-width:48em) {
     .container{
       display: grid;
       grid-template-columns: repeat(2, 2fr);
